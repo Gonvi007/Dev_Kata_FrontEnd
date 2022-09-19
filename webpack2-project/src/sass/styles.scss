@@ -1,0 +1,35 @@
+$danger: #9f1412;
+/*
+#section .subseccion h1.title {
+    color: red;
+}
+#section .subseccion2 {
+    color: green;
+}
+#seccion2 .subseccion h2.title {
+    color: yellow;
+}
+*/
+
+#section {
+    .subseccion1 {
+        h1{
+            &.title {
+                color: red;
+            }
+        }
+    }
+    .subseccion2 {
+        color: green;
+        h1 {
+            color: blue;
+        }
+    }
+}
+#section2 {
+    .subseccion {
+        h2.title {
+            color: yellow;
+        }
+    }
+}
