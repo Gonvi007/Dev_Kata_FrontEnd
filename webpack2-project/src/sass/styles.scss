@@ -1,35 +1,29 @@
-$danger: #9f1412;
-/*
-#section .subseccion h1.title {
-    color: red;
-}
-#section .subseccion2 {
-    color: green;
-}
-#seccion2 .subseccion h2.title {
-    color: yellow;
-}
-*/
+@import "~bootstrap/scss/bootstrap";
 
-#section {
-    .subseccion1 {
+@import "fondos";
+
+$danger:#ff1678;
+
+#section{
+    .subseccion{
         h1{
-            &.title {
-                color: red;
-            }
+            &.title{
+                color:$danger;
+            }  
         }
     }
-    .subseccion2 {
+    .subseccion2{
         color: green;
-        h1 {
+        h1{
             color: blue;
         }
-    }
+    } 
 }
-#section2 {
+
+#section2{
     .subseccion {
-        h2.title {
-            color: yellow;
+        h2.title{
+            color:yellow;
         }
     }
 }
